@@ -5,10 +5,10 @@
   "contributors": [
     "Mourner <xiaoqw.liao@gmail.com>"
   ],
-  "homepage": "https://example.com",
+  "homepage": "https://github.com/Mournerliao/koishi-plugin-know-more",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/alice/koishi-plugin-example.git"
+    "url": "git+https://github.com/Mournerliao/koishi-plugin-know-more"
   },
   "main": "lib/index.js",
   "typings": "lib/index.d.ts",
