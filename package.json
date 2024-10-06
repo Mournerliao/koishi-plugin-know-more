@@ -1,7 +1,15 @@
 {
   "name": "koishi-plugin-know-more",
-  "description": "Let us know more!",
-  "version": "0.0.1",
+  "description": "A koishi plugin to help you know more.",
+  "version": "1.0.0",
+  "contributors": [
+    "Mourner <xiaoqw.liao@gmail.com>"
+  ],
+  "homepage": "https://example.com",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alice/koishi-plugin-example.git"
+  },
   "main": "lib/index.js",
   "typings": "lib/index.d.ts",
   "files": [
@@ -9,14 +17,23 @@
     "dist"
   ],
   "license": "MIT",
-  "scripts": {},
   "keywords": [
-    "chatbot",
     "koishi",
-    "plugin"
+    "plugin",
+    "news"
   ],
-  "devDependencies": {},
   "peerDependencies": {
     "koishi": "^4.18.0"
+  },
+  "koishi": {
+    "description": {
+      "en": "Know More",
+      "zh": "知闻"
+    },
+    "service": {
+      "required": [
+        "database"
+      ]
+    }
   }
 }
