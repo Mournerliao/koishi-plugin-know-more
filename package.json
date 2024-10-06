@@ -35,5 +35,8 @@
         "database"
       ]
     }
+  },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/"
   }
 }
